@@ -225,7 +225,7 @@ function rand(min: number, max: number): number {
 
 
 function randomCubes() {
-  let n = parseInt(prompt("Введите N"));
+  let n = parseInt(prompt("Введите количество кубов"));
   let min = -5;
   let max = 5;
   for (let i = 0; i < n; i++) {
