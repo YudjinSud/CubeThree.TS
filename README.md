@@ -1,3 +1,7 @@
+## Credentials
+Thanks to
+https://github.com/pinqy520/three-typescript-starter
+
 ## Usage
 
 ### Install Typscript
