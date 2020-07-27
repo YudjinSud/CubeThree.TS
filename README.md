@@ -13,8 +13,8 @@ npm install typescript -g
 ### Start
 
 ```
-$ git clone https://github.com/YudjinSud/CubeThree.TS
-$ cd CubeThree.TS
+$ git clone https://github.com/YudjinSud/CubeThree.ts
+$ cd CubeThree.ts
 $ npm install # or yarn
 $ npm start
 ```
