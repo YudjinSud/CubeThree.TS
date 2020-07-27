@@ -14,3 +14,6 @@ $ cd CubeThree.TS
 $ npm install # or yarn
 $ npm start
 ```
+![A lot of Cubes](https://github.com/YudjinSud/CubeThree.ts/blob/master/ALotOfCubes.png)
+
+![Clicable vertices] (https://github.com/YudjinSud/CubeThree.ts/blob/master/RaycastingVertices.png)
