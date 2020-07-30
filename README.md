@@ -4,6 +4,9 @@ https://github.com/pinqy520/three-typescript-starter
 
 ## Usage
 
+## Githup pages
+https://yudjinsud.github.io/CubeThree.ts/
+
 ### Install Typscript
 
 ```
