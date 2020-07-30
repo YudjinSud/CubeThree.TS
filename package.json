@@ -1,26 +1,30 @@
 {
-  "name": "CubeThreeTS",
+  "name": "CubeThree.ts",
   "version": "1.0.0",
   "description": "three.js + typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline --open"
+    "build" : "webpack -p --config ./webpack.config.js",
+    "start": "webpack-dev-server --inline --open",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinqy520/three-typescript-starter.git"
+    "url": "git+https://github.com/YudjinSud/CubeThree.ts"
   },
   "keywords": [],
-  "author": "Huang Qi",
+  "author": "Eugene Sudakov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinqy520/three-typescript-starter/issues"
+    "url": "https://github.com/YudjinSud/CubeThree.ts/issues"
   },
-  "homepage": "https://github.com/pinqy520/three-typescript-starter#readme",
+  "homepage": "https://yudjinsud.github.io/CubeThree.ts/",
   "devDependencies": {
     "awesome-typescript-loader": "latest",
     "css-loader": "latest",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "latest",
     "progress-bar-webpack-plugin": "latest",
     "style-loader": "latest",

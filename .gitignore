@@ -42,3 +42,5 @@ yarn.lock
 
 # awesome-typescript
 .awcache
+
+.package-lock.json
